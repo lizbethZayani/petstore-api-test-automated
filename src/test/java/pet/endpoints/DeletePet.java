@@ -9,7 +9,7 @@ public class DeletePet {
     private static String PET_BY_ID = "https://petstore.swagger.io/v2/pet/{id}";
 
     /**
-     * Method to delete the pet git through the deleted endpoint
+     * Method to delete the pet through the deleted endpoint
      * @param id
      */
     @Step("the user delete the pet {0}")
