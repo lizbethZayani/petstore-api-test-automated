@@ -99,11 +99,11 @@ To run the project, you can either just run the `CucumberTestSuite` test runner 
 ```json
 $ mvn clean verify
 ```
-To open the full report run the command on Mac OS:
+To open the full report on Mac OS run the command:
 ```json
 open target/site/serenity/index.html
 ```
-To open it in Windows OS run the command:
+To open it on Windows OS run the command:
 ```json
 start target/site/serenity/index.html
 ```
