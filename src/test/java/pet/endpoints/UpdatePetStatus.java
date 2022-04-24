@@ -6,6 +6,10 @@ import net.thucydides.core.annotations.Step;
 public class UpdatePetStatus {
     private static String UPDATE_PET_STATUS = "https://petstore.swagger.io/v2/pet";
 
+    /**
+     * Method to update a pet by the put endpoint
+     * @param pet
+     */
     @Step("Update the pet")
     public void withStatus(String pet) {
         SerenityRest.given()

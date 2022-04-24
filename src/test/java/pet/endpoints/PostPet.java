@@ -7,6 +7,10 @@ public class PostPet {
 
     private static String POST_PET = "https://petstore.swagger.io/v2/pet";
 
+    /**
+     * Method to request a new pet by the post endpoint
+     * @param pet
+     */
     @Step("Post a new pet")
     public void withDetails(String pet) {
         SerenityRest.given()

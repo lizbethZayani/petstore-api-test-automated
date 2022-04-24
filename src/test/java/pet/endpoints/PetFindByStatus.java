@@ -7,6 +7,10 @@ public class PetFindByStatus {
 
     private static String PET_BY_STATUS = "https://petstore.swagger.io/v2/pet/findByStatus?status={status}";
 
+    /**
+     * Method to request the available pets by the get endpoint
+     * @param status
+     */
     @Step("Get pet by status {0}")
     public void fetchPetByStatus(String status) {
         SerenityRest.given()
