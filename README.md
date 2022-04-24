@@ -5,7 +5,7 @@ Serenity BDD is a library that makes it easier to write high quality automated a
 Serenity strongly encourages good test automation design, and supports several design patterns, including classic Page Objects, the newer Lean Page Objects/ Action Classes approach, and the more sophisticated and flexible Screenplay pattern.
 
 ## The pet project
-The best place to start with the project is to clone or download the pet project on Github. This project interact with the DEMO PET STORE: https://petstore.swagger.io/. This is an PET API shop where you make a purchase a pet, adding, updating and deleting a pet.
+The best place to start with the project is to clone or download the pet project on Github. This project interact with the DEMO PET STORE: https://petstore.swagger.io/. This is a PET API shop where you make a purchase, adding, updating and deleting a pet.
 The framework is developing with Maven then you have to have installed Java and Maven in your local machine to run it.
 Serenity with Cucumber is implemented to write and describe the scenarios.
 ### The project directory structure
@@ -53,7 +53,7 @@ Feature: PET API End to End Testing
 ```
 ### The Action Classes implementation.
 
-The action classes pattern is implemented in the rest of the actions. Here is an example:
+The action classes pattern is implemented in the whole project. Here is an example:
 
 ```java
     @When("I look up the {string} pets")
